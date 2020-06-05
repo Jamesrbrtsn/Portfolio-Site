@@ -1,0 +1,19 @@
+#project-grid{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-gap: 0px;
+}
+
+#project > p{
+    font-size: small;
+}
+
+#project{
+    display: grid;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: -2px 2px 2px rgb(83, 83, 83);
+    padding: 1em;
+}

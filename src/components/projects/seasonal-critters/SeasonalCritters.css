@@ -1,0 +1,185 @@
+#seasonal-critters{
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 0em;
+  padding-bottom: 2em;
+  position: center;
+  font-family: 'Muli', sans-serif;
+  background-color: #feffd4d2; 
+}
+
+#sc-intro-block #sc-input-block{
+  background-color:  #feffd4d2; 
+}
+
+.sc-nameTitle{
+  font-family: 'Baloo Chettan 2', cursive;
+  color: white;
+  font-size: small;
+  margin-top: 0; 
+}
+
+#sc-p, #sc-h1, #sc-h2, #sc-h3, #sc-h4{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.sc-p, .sc-h1, .sc-h2, .sc-h3, .sc-h4{
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+@font-face{
+  font-family: 'Baloo Chettan 2', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+}
+
+#sc-ex-grid{
+  display: grid;
+  padding: 0.25em;
+  width: 100%;
+  grid-gap: 5px;
+  background-color:  #feffd4d2; 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#sc-example{
+  display: inline-block;
+  background-color: rgb(165, 165, 165);  
+  border-radius: 25px;
+  width: 150px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border:1px solid #ffffff00;/**/
+  text-align: center;
+}
+
+#sc-months-input > #sc-selected-button{
+  background-color: rgb(255, 233, 233)
+}
+#sc-hemisphere-input > #sc-selected-button{
+  background-color: rgb(255, 233, 233)
+}
+#sc-display-input > #sc-selected-button{
+  background-color: rgb(255, 233, 233)
+}
+
+#sc-months-input > button{
+  display: inline-block;
+  font-family : 'Baloo Chettan 2', cursive;
+  font-size: 1em;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(255, 157, 157);
+  width: auto;
+  height: auto+20px;
+}
+
+#sc-hemisphere-input > button{
+  display: inline-block;
+  font-family : 'Baloo Chettan 2', cursive;
+  font-size: 1em;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(255, 157, 157);
+  width: auto;
+  height: auto+20px;
+}
+
+#sc-display-input > button{
+  display: inline-block;
+  font-family : 'Baloo Chettan 2', cursive;
+  font-size: 1em;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(255, 157, 157);
+  width: auto;
+  height: auto+20px;
+}
+
+#sc-example #sc-img {
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+
+#sc-hemisphere{
+  align-items: center;
+}
+
+#sc-bug-table{
+  display: grid;
+  width: 100%;
+  padding-top: 2em;
+  border-radius: 25px;
+  background-color:  #feffd4d2; 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#sc-fish-table{
+  display: grid;
+  width: 100%;
+  padding-top: 0.5em;
+  border-radius: 25px;
+  background-color:  #feffd4d2; 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#sc-fish-table #sc-table-body-cell{
+  display: inline-block;
+  border:1px solid #ffffff;/**/
+  background-color: rgb(71, 133, 240);  
+  border-radius: 25px;
+  text-align: center;
+  width: auto;
+}
+
+#sc-bug-table #sc-table-body-cell{
+  display: inline-block;
+  vertical-align: center;
+  border:1px solid #feffd4d2;/**/
+  background-color: #268c16c1; 
+  border-radius: 25px;
+  text-align: center;
+  width: auto;
+}
+
+#sc-full-display{
+  width: 100%;
+  float:left;
+  background-color:  #feffd4d2; 
+}
+
+#sc-left-input{
+  width: 60%;
+  float:left;
+  background-color:  #feffd4d2; 
+}
+
+#sc-right-input{
+  width: 40%;
+  float:right;
+  background-color:  #feffd4d2; 
+
+}
+
+#sc-option-text{
+  display:grid;
+  background-color:  #feffd4d2; 
+}
+
+#sc-hemisphere-input, #sc-months-input, #sc-display-input{
+  display:grid;
+  width: 90%;
+  background-color:  #feffd4d2; 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+
+#sc-h1{
+  font-size: 4em;
+  font-weight: bolder;
+}
+
+
+#sc-p{
+  font-size: small;
+
+}

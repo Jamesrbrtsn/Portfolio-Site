@@ -7,6 +7,7 @@ import {
   } from "react-router-dom";
 import './HomeCSSNav.css';
 import Calculator from '../projects/calculator/Calculator';
+import SeasonalCritters from '../projects/seasonal-critters/SeasonalCritters.js';
 
 export default function HomeCSSNav(){
 
@@ -36,6 +37,11 @@ export default function HomeCSSNav(){
                 </Route>
                 <Route path="/calculator">
                     <Calculator />
+                </Route>
+                <Route path="/seasonal-critters">
+                    <div id="seasonal-critter-display">
+                        <SeasonalCritters />
+                    </div>
                 </Route>
                 <Route path={`*`}>
                     <Home id={"c1"}/>
