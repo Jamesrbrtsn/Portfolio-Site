@@ -1,0 +1,36 @@
+
+#welcome-image{
+    width:100%;
+}
+
+/*
+#c1 > *{
+    color: red;
+    background-color: yellow;
+}
+
+#c1 > * > #welcome-image{
+    width:100%;
+    filter: grayscale(100);
+}
+
+
+#c2 > *{
+    color: blue;
+    background-color: aqua;
+}
+
+#c2 > * > #welcome-image{
+    width:100%;
+    filter: sepia(100);
+}
+
+#c3 > *{
+    color: lightgreen;
+    background-color: forestgreen;
+}
+
+#c3 > * >  #welcome-image{
+    width:100%;
+    filter: hue-rotate(90deg);
+}*/

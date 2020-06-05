@@ -1,0 +1,25 @@
+
+#HomeCSSNav{
+    padding-left:2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#css-options{
+    text-align: center;
+}
+
+
+
+#css-options > div{
+    width: 33.33333%;
+    height: 50px;
+    padding: 0em;
+    text-align: center;
+    display: inline-flex;
+    background-color: silver;
+    outline: auto;
+    outline-color: white;
+}
+
+
